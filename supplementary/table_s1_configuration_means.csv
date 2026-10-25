@@ -1,0 +1,15 @@
+model,model_group,protocol,in_lab_accuracy_pct,in_lab_f1_pct,external_accuracy_pct,external_f1_pct,f1_mean_source
+Scratch-AID,Trainable,Realistic,98.39000000,95.98000000,94.88500000,66.31000000,manuscript Table II
+CNNTransformer (ResNet-transformer),Trainable,Realistic,98.64000000,96.60000000,95.72000000,71.20000000,manuscript Table II
+VideoMAE,Trainable,Realistic,98.80666667,97.00000000,97.13833333,82.49000000,manuscript Table II
+VideoSwin,Trainable,Realistic,98.81479989,97.03000000,96.44123335,78.12000000,manuscript Table II
+InternVideo-Next,Trainable,Realistic,98.81144238,96.99000000,97.04913336,81.19000000,manuscript Table II
+Gemini 3.1 Flash-Lite,Frozen MLLM,Realistic,78.30555556,77.50000000,75.66830065,75.07000000,manuscript Table II
+Qwen3-VL,Frozen MLLM,Realistic,80.52777778,80.15000000,75.69444445,72.43000000,manuscript Table II
+Scratch-AID,Trainable,Curated,99.67333333,99.67000000,87.09833333,85.40000000,manuscript Table II
+CNNTransformer (ResNet-transformer),Trainable,Curated,99.67666667,99.68000000,87.70833333,85.87000000,manuscript Table II
+VideoMAE,Trainable,Curated,99.91833333,99.92000000,95.21333333,95.04000000,manuscript Table II
+VideoSwin,Trainable,Curated,99.75932611,99.76000000,93.33473901,93.00000000,manuscript Table II
+InternVideo-Next,Trainable,Curated,99.85626421,99.86000000,95.41397245,95.26000000,manuscript Table II
+Gemini 3.1 Flash-Lite,Frozen MLLM,Curated,78.04731993,77.07000000,74.63888889,73.19000000,manuscript Table II
+Qwen3-VL,Frozen MLLM,Curated,75.63888889,78.41000000,76.27777778,76.26000000,manuscript Table II

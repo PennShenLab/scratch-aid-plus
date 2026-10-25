@@ -1,0 +1,33 @@
+{
+  "model_variants": [
+    "Qwen3-VL-32B-Instruct",
+    "Qwen3-VL-32B-Thinking"
+  ],
+  "nframes": 29,
+  "max_pixels": 100352,
+  "dtype": "bfloat16",
+  "device_map": "auto",
+  "do_sample": false,
+  "max_new_tokens": {
+    "instruct": 256,
+    "thinking": 4096
+  },
+  "shots": [
+    0,
+    2,
+    4
+  ],
+  "demonstration_order": {
+    "2": [
+      "scratching",
+      "nonscratching"
+    ],
+    "4": [
+      "scratching",
+      "scratching",
+      "nonscratching",
+      "nonscratching"
+    ]
+  },
+  "response_parsing": "Remove <think>...</think>, extract JSON, validate response schema"
+}

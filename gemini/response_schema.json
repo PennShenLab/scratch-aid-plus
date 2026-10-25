@@ -1,0 +1,25 @@
+{
+  "type": "object",
+  "properties": {
+    "label": {
+      "type": "string",
+      "enum": [
+        "scratching",
+        "nonscratching"
+      ]
+    },
+    "confidence": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1
+    },
+    "reason": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "label",
+    "confidence",
+    "reason"
+  ]
+}

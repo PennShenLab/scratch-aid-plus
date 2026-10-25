@@ -1,0 +1,40 @@
+{
+  "model_name": "gemini-3.1-flash-lite",
+  "video_fps": 24,
+  "temperature": 0,
+  "response_mime_type": "application/json",
+  "shots": [
+    0,
+    2,
+    4
+  ],
+  "retrieval": {
+    "candidate_partition": "training",
+    "embedding_model": "gemini-embedding-2",
+    "embedding_dimensions": 768,
+    "metric": "cosine",
+    "neighbors_per_class": {
+      "2": 1,
+      "4": 2
+    },
+    "class_order": [
+      "scratching",
+      "nonscratching"
+    ],
+    "within_class_order": "nearest first"
+  },
+  "request_order": {
+    "zero_shot": [
+      "target_video",
+      "zero_shot_prompt"
+    ],
+    "few_shot": [
+      "few_shot_prompt",
+      "labeled_demonstrations",
+      "target_prefix",
+      "target_video"
+    ]
+  },
+  "demonstration_prefix": "Example {i}: The following video is labeled {label}.",
+  "target_prefix": "Now classify the following target video. Remember: classify only this final target video."
+}

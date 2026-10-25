@@ -1,0 +1,7 @@
+torch
+torchvision
+mmengine>=0.7.1,<1.0
+mmcv-lite>=2.0.0rc4,<2.2.0
+mmaction2==1.2.0
+einops
+numpy<2

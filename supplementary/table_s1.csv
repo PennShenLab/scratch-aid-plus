@@ -1,0 +1,85 @@
+model,model_group,protocol,crop,appearance,in_lab_accuracy_pct,in_lab_f1_pct,external_accuracy_pct,external_f1_pct,in_lab_accuracy_sd_pct,in_lab_f1_sd_pct,external_accuracy_sd_pct,external_f1_sd_pct,n_subsampling_repeats,estimate_scope,source_kind
+Scratch-AID,Trainable,Realistic,Per-Frame,None,98.45000000,96.14000000,95.61000000,65.19000000,,,,,,full test set,provided benchmark summary
+Scratch-AID,Trainable,Realistic,Per-Frame,Gray,98.43000000,96.00000000,95.18000000,60.71000000,,,,,,full test set,provided benchmark summary
+Scratch-AID,Trainable,Realistic,Per-Frame,Color Jitter,98.19000000,95.50000000,94.05000000,66.12000000,,,,,,full test set,provided benchmark summary
+Scratch-AID,Trainable,Realistic,Motion-Gradient,None,98.75000000,96.88000000,95.03000000,67.62000000,,,,,,full test set,provided benchmark summary
+Scratch-AID,Trainable,Realistic,Motion-Gradient,Gray,98.33000000,95.86000000,93.39000000,62.20000000,,,,,,full test set,provided benchmark summary
+Scratch-AID,Trainable,Realistic,Motion-Gradient,Color Jitter,98.19000000,95.52000000,96.05000000,76.01000000,,,,,,full test set,provided benchmark summary
+CNNTransformer (ResNet-transformer),Trainable,Realistic,Per-Frame,None,98.43000000,96.06000000,95.18000000,69.27000000,,,,,,full test set,provided benchmark summary
+CNNTransformer (ResNet-transformer),Trainable,Realistic,Per-Frame,Gray,98.51000000,96.28000000,95.86000000,66.90000000,,,,,,full test set,provided benchmark summary
+CNNTransformer (ResNet-transformer),Trainable,Realistic,Per-Frame,Color Jitter,98.45000000,96.15000000,96.73000000,79.06000000,,,,,,full test set,provided benchmark summary
+CNNTransformer (ResNet-transformer),Trainable,Realistic,Motion-Gradient,None,98.83000000,97.07000000,96.00000000,70.21000000,,,,,,full test set,provided benchmark summary
+CNNTransformer (ResNet-transformer),Trainable,Realistic,Motion-Gradient,Gray,98.91000000,97.26000000,96.22000000,72.97000000,,,,,,full test set,provided benchmark summary
+CNNTransformer (ResNet-transformer),Trainable,Realistic,Motion-Gradient,Color Jitter,98.71000000,96.75000000,94.33000000,68.81000000,,,,,,full test set,provided benchmark summary
+VideoMAE,Trainable,Realistic,Per-Frame,None,98.79000000,96.94000000,97.06000000,81.98000000,,,,,,full test set,provided benchmark summary
+VideoMAE,Trainable,Realistic,Per-Frame,Gray,98.75000000,96.87000000,97.14000000,82.41000000,,,,,,full test set,provided benchmark summary
+VideoMAE,Trainable,Realistic,Per-Frame,Color Jitter,98.73000000,96.82000000,97.03000000,82.00000000,,,,,,full test set,provided benchmark summary
+VideoMAE,Trainable,Realistic,Motion-Gradient,None,98.93000000,97.32000000,97.21000000,83.00000000,,,,,,full test set,provided benchmark summary
+VideoMAE,Trainable,Realistic,Motion-Gradient,Gray,98.67000000,96.65000000,97.22000000,82.81000000,,,,,,full test set,provided benchmark summary
+VideoMAE,Trainable,Realistic,Motion-Gradient,Color Jitter,98.97000000,97.42000000,97.17000000,82.73000000,,,,,,full test set,provided benchmark summary
+VideoSwin,Trainable,Realistic,Per-Frame,None,98.91216761,97.24208376,96.29351096,75.89098532,,,,,,full test set,saved experiment metrics
+VideoSwin,Trainable,Realistic,Per-Frame,Gray,98.75100725,96.85916920,97.04555221,80.30085960,,,,,,full test set,saved experiment metrics
+VideoSwin,Trainable,Realistic,Per-Frame,Color Jitter,98.85173247,97.10512951,96.34185647,77.54698318,,,,,,full test set,saved experiment metrics
+VideoSwin,Trainable,Realistic,Motion-Gradient,None,98.99274778,97.48490946,95.98732273,76.14180773,,,,,,full test set,saved experiment metrics
+VideoSwin,Trainable,Realistic,Motion-Gradient,Gray,98.60999194,96.54135338,97.20133219,82.70826419,,,,,,full test set,saved experiment metrics
+VideoSwin,Trainable,Realistic,Motion-Gradient,Color Jitter,98.77115230,96.92074710,95.77782553,76.10942249,,,,,,full test set,saved experiment metrics
+InternVideo-Next,Trainable,Realistic,Per-Frame,None,99.03303787,97.54350051,96.78770950,79.00280899,,,,,,full test set,saved experiment metrics
+InternVideo-Next,Trainable,Realistic,Per-Frame,Gray,98.85173247,97.06639218,97.12612806,81.83361630,,,,,,full test set,saved experiment metrics
+InternVideo-Next,Trainable,Realistic,Per-Frame,Color Jitter,98.73086221,96.79715302,97.06703911,81.55405405,,,,,,full test set,saved experiment metrics
+InternVideo-Next,Trainable,Realistic,Motion-Gradient,None,98.77115230,96.89883071,97.06166738,81.03986135,,,,,,full test set,saved experiment metrics
+InternVideo-Next,Trainable,Realistic,Motion-Gradient,Gray,98.79129734,96.95431472,97.07778255,81.72043011,,,,,,full test set,saved experiment metrics
+InternVideo-Next,Trainable,Realistic,Motion-Gradient,Color Jitter,98.69057212,96.70886076,97.17447357,81.98630137,,,,,,full test set,saved experiment metrics
+Gemini 3.1 Flash-Lite,Frozen MLLM,Realistic,Per-Frame,None,81.16666667,80.75748240,79.66666667,79.06811789,1.52752523,1.18828708,0.28867513,1.27973805,3,balanced subsamples,saved experiment metrics
+Gemini 3.1 Flash-Lite,Frozen MLLM,Realistic,Per-Frame,Gray,77.50000000,76.31797601,74.33333333,71.76632134,3.46410162,3.94505341,1.04083300,1.79491630,3,balanced subsamples,saved experiment metrics
+Gemini 3.1 Flash-Lite,Frozen MLLM,Realistic,Per-Frame,Color Jitter,76.00000000,75.38119511,76.50000000,77.14779314,3.90512484,4.85631359,1.80277564,2.59797882,3,balanced subsamples,saved experiment metrics
+Gemini 3.1 Flash-Lite,Frozen MLLM,Realistic,Motion-Gradient,None,79.50000000,79.01114892,79.50980392,79.22356002,4.35889894,4.71873856,4.01471486,5.93841242,3,balanced subsamples,saved experiment metrics
+Gemini 3.1 Flash-Lite,Frozen MLLM,Realistic,Motion-Gradient,Gray,78.16666667,76.88241486,69.33333333,67.34985798,4.53688586,4.91054835,1.75594229,1.55596801,3,balanced subsamples,saved experiment metrics
+Gemini 3.1 Flash-Lite,Frozen MLLM,Realistic,Motion-Gradient,Color Jitter,77.50000000,76.64249735,74.66666667,75.84635645,2.17944947,2.75233168,1.75594229,2.06962758,3,balanced subsamples,saved experiment metrics
+Qwen3-VL,Frozen MLLM,Realistic,Per-Frame,None,80.83333333,79.84000000,76.33333333,72.34666667,3.54729944,5.44988991,2.25462488,2.86636239,3,balanced subsamples,saved experiment metrics
+Qwen3-VL,Frozen MLLM,Realistic,Per-Frame,Gray,80.33333333,80.32666667,72.50000000,69.72666667,2.46644143,3.63656890,5.76628130,5.31819832,3,balanced subsamples,saved experiment metrics
+Qwen3-VL,Frozen MLLM,Realistic,Per-Frame,Color Jitter,78.83333333,79.06333333,75.00000000,72.11333333,5.03322296,5.48744324,1.80277564,1.28881082,3,balanced subsamples,saved experiment metrics
+Qwen3-VL,Frozen MLLM,Realistic,Motion-Gradient,None,82.66666667,82.04333333,78.00000000,74.95000000,2.84312035,4.63035996,3.77491722,4.74951576,3,balanced subsamples,saved experiment metrics
+Qwen3-VL,Frozen MLLM,Realistic,Motion-Gradient,Gray,80.16666667,80.03000000,75.66666667,72.22000000,4.61880215,5.64382849,2.02072594,2.57745999,3,balanced subsamples,saved experiment metrics
+Qwen3-VL,Frozen MLLM,Realistic,Motion-Gradient,Color Jitter,80.33333333,79.60666667,76.66666667,73.22000000,2.92973264,2.76134629,3.54729944,3.63335933,3,balanced subsamples,saved experiment metrics
+Scratch-AID,Trainable,Curated,Per-Frame,None,99.70000000,99.70000000,81.71000000,79.07000000,,,,,,full test set,provided benchmark summary
+Scratch-AID,Trainable,Curated,Per-Frame,Gray,99.74000000,99.74000000,85.29000000,82.90000000,,,,,,full test set,provided benchmark summary
+Scratch-AID,Trainable,Curated,Per-Frame,Color Jitter,99.65000000,99.65000000,91.23000000,90.72000000,,,,,,full test set,provided benchmark summary
+Scratch-AID,Trainable,Curated,Motion-Gradient,None,99.82000000,99.82000000,86.96000000,85.27000000,,,,,,full test set,provided benchmark summary
+Scratch-AID,Trainable,Curated,Motion-Gradient,Gray,99.72000000,99.72000000,84.37000000,81.71000000,,,,,,full test set,provided benchmark summary
+Scratch-AID,Trainable,Curated,Motion-Gradient,Color Jitter,99.41000000,99.41000000,93.03000000,92.71000000,,,,,,full test set,provided benchmark summary
+CNNTransformer (ResNet-transformer),Trainable,Curated,Per-Frame,None,99.79000000,99.79000000,78.32000000,72.54000000,,,,,,full test set,provided benchmark summary
+CNNTransformer (ResNet-transformer),Trainable,Curated,Per-Frame,Gray,99.56000000,99.56000000,88.47000000,87.18000000,,,,,,full test set,provided benchmark summary
+CNNTransformer (ResNet-transformer),Trainable,Curated,Per-Frame,Color Jitter,99.61000000,99.61000000,93.12000000,92.87000000,,,,,,full test set,provided benchmark summary
+CNNTransformer (ResNet-transformer),Trainable,Curated,Motion-Gradient,None,99.64000000,99.64000000,87.54000000,86.00000000,,,,,,full test set,provided benchmark summary
+CNNTransformer (ResNet-transformer),Trainable,Curated,Motion-Gradient,Gray,99.84000000,99.84000000,87.05000000,85.34000000,,,,,,full test set,provided benchmark summary
+CNNTransformer (ResNet-transformer),Trainable,Curated,Motion-Gradient,Color Jitter,99.62000000,99.62000000,91.75000000,91.29000000,,,,,,full test set,provided benchmark summary
+VideoMAE,Trainable,Curated,Per-Frame,None,99.90000000,99.90000000,94.87000000,94.67000000,,,,,,full test set,provided benchmark summary
+VideoMAE,Trainable,Curated,Per-Frame,Gray,99.90000000,99.90000000,95.29000000,95.12000000,,,,,,full test set,provided benchmark summary
+VideoMAE,Trainable,Curated,Per-Frame,Color Jitter,99.91000000,99.91000000,95.40000000,95.26000000,,,,,,full test set,provided benchmark summary
+VideoMAE,Trainable,Curated,Motion-Gradient,None,99.95000000,99.95000000,95.40000000,95.23000000,,,,,,full test set,provided benchmark summary
+VideoMAE,Trainable,Curated,Motion-Gradient,Gray,99.92000000,99.92000000,95.34000000,95.19000000,,,,,,full test set,provided benchmark summary
+VideoMAE,Trainable,Curated,Motion-Gradient,Color Jitter,99.93000000,99.93000000,94.98000000,94.78000000,,,,,,full test set,provided benchmark summary
+VideoSwin,Trainable,Curated,Per-Frame,None,99.79943843,99.79915646,90.44841158,89.64413625,,,,,,full test set,saved experiment metrics
+VideoSwin,Trainable,Curated,Per-Frame,Gray,99.70918572,99.70886457,93.70255834,93.36689369,,,,,,full test set,saved experiment metrics
+VideoSwin,Trainable,Curated,Per-Frame,Color Jitter,99.57882070,99.57754979,94.68653360,94.55566758,,,,,,full test set,saved experiment metrics
+VideoSwin,Trainable,Curated,Motion-Gradient,None,99.82952266,99.82943714,91.95951645,91.62027542,,,,,,full test set,saved experiment metrics
+VideoSwin,Trainable,Curated,Motion-Gradient,Gray,99.91977537,99.91980754,93.99072252,93.70072939,,,,,,full test set,saved experiment metrics
+VideoSwin,Trainable,Curated,Motion-Gradient,Color Jitter,99.71921380,99.71876256,95.22069159,95.10932106,,,,,,full test set,saved experiment metrics
+InternVideo-Next,Trainable,Curated,Per-Frame,None,99.82952266,99.82923154,94.57407928,94.33602348,,,,,,full test set,saved experiment metrics
+InternVideo-Next,Trainable,Curated,Per-Frame,Gray,99.77938227,99.77907210,95.37531628,95.24703843,,,,,,full test set,saved experiment metrics
+InternVideo-Next,Trainable,Curated,Per-Frame,Color Jitter,99.89971921,99.89963870,95.32611751,95.17171277,,,,,,full test set,saved experiment metrics
+InternVideo-Next,Trainable,Curated,Motion-Gradient,None,99.77938227,99.77889447,94.83412988,94.61183198,,,,,,full test set,saved experiment metrics
+InternVideo-Next,Trainable,Curated,Motion-Gradient,Gray,99.92980345,99.92978233,96.52797301,96.46789647,,,,,,full test set,saved experiment metrics
+InternVideo-Next,Trainable,Curated,Motion-Gradient,Color Jitter,99.91977537,99.91974318,95.84621872,95.72389842,,,,,,full test set,saved experiment metrics
+Gemini 3.1 Flash-Lite,Frozen MLLM,Curated,Per-Frame,None,80.00000000,79.52922041,75.50000000,73.92854514,5.40832691,5.90211015,1.80277564,3.38158768,3,balanced subsamples,saved experiment metrics
+Gemini 3.1 Flash-Lite,Frozen MLLM,Curated,Per-Frame,Gray,76.66666667,75.25669495,74.16666667,71.31409484,4.36844747,5.27933402,3.78593890,5.24778602,3,balanced subsamples,saved experiment metrics
+Gemini 3.1 Flash-Lite,Frozen MLLM,Curated,Per-Frame,Color Jitter,76.66666667,74.99564564,77.00000000,75.91762688,3.61708907,4.68183131,5.26782688,6.72422989,3,balanced subsamples,saved experiment metrics
+Gemini 3.1 Flash-Lite,Frozen MLLM,Curated,Motion-Gradient,None,78.83333333,78.01030420,76.83333333,76.18129079,4.25245027,4.79052083,2.46644143,2.11814711,3,balanced subsamples,saved experiment metrics
+Gemini 3.1 Flash-Lite,Frozen MLLM,Curated,Motion-Gradient,Gray,75.78391960,74.44033091,70.16666667,67.88034808,5.57954104,5.78747599,2.84312035,2.58851617,3,balanced subsamples,saved experiment metrics
+Gemini 3.1 Flash-Lite,Frozen MLLM,Curated,Motion-Gradient,Color Jitter,80.33333333,80.14795288,74.16666667,73.93264557,2.75378527,3.76064350,1.89296945,2.21222541,3,balanced subsamples,saved experiment metrics
+Qwen3-VL,Frozen MLLM,Curated,Per-Frame,None,74.66666667,76.28333333,75.83333333,76.04666667,3.32916406,8.01730836,5.29937103,8.81426306,3,balanced subsamples,saved experiment metrics
+Qwen3-VL,Frozen MLLM,Curated,Per-Frame,Gray,75.66666667,79.41000000,72.66666667,73.45666667,3.05505046,1.02190998,4.80451177,7.12281077,3,balanced subsamples,saved experiment metrics
+Qwen3-VL,Frozen MLLM,Curated,Per-Frame,Color Jitter,72.83333333,76.13333333,75.66666667,75.22666667,2.36290781,2.80214799,5.25198375,10.05637277,3,balanced subsamples,saved experiment metrics
+Qwen3-VL,Frozen MLLM,Curated,Motion-Gradient,None,77.83333333,79.86000000,79.00000000,78.78333333,0.28867513,3.39481958,4.76969601,8.57063786,3,balanced subsamples,saved experiment metrics
+Qwen3-VL,Frozen MLLM,Curated,Motion-Gradient,Gray,77.50000000,80.62666667,76.16666667,76.91666667,3.04138127,0.86315313,1.25830574,4.20965953,3,balanced subsamples,saved experiment metrics
+Qwen3-VL,Frozen MLLM,Curated,Motion-Gradient,Color Jitter,75.33333333,78.16666667,78.33333333,77.10666667,2.46644143,2.85114597,5.03322296,10.68427505,3,balanced subsamples,saved experiment metrics
