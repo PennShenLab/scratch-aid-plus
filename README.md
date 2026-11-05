@@ -5,15 +5,15 @@ This repository holds the official code for the paper [Towards Robust Automated 
 ![Scratch-AID+ Overview](overview.png)
 
 ### 🎯 Abstract
-Quantification of mouse scratching behavior is essential for preclinical itch research. Automated detection strategies could greatly improve quantification efficiency compared with laborious manual annotation. However, robust performance across laboratories remains a challenge for current automated methods.
-We present Scratch-AID+, a framework dedicated to automated mouse scratching detection, including a diverse and progressive set of approaches: classic ResNet-based detectors, task-adaptive fine-tuning of video foundation models, and in-context learning with advanced multimodal large language models. 
-To simulate real-world use cases, we benchmark on a public dataset and utilize additional cross-laboratory video recordings for independent testing.
-We find that classic baselines suffered severe performance degradation on external data under the realistic setting with sparse scratching events. 
-In contrast, fine-tuned video foundation models substantially improved the generalizability, achieving significantly better detection performance. 
-Furthermore, frozen multimodal large language models demonstrated promising out-of-the-box ability using only few-shot demonstrations.
-We also reported the effects of different video preprocessing strategies.
-Our findings highlight the improved performance and generalizability of the adapted foundation models for automated scratching behavior analysis and shed light on the real-world deployment of such detectors.
-
+Quantification of mouse scratching behavior is essential for preclinical itch research. 
+However, manual video annotation is labor-intensive, and automated detection remains challenging in terms of accuracy and generalizability. 
+We present Scratch-AID+, a computational framework dedicated to automated mouse scratching detection, including a diverse and progressive set of model families and learning strategies: classic ResNet-based detectors, task-adaptive fine-tuning of video foundation models, and in-context learning of advanced multimodal large language models. 
+To simulate real-world use cases, we benchmark on a public dataset containing annotated video recordings from a source laboratory with additional cross-laboratory videos for independent testing, and we explore different data preprocessing and training configurations.
+We find that classic models suffer severe performance degradation on external data under our realistic setting with sparse scratching events. 
+In contrast, fine-tuned video foundation models substantially improve the generalizability, achieving significantly better detection performance. 
+Furthermore, frozen multimodal large language models demonstrate promising out-of-the-box ability using only few-shot demonstrations.
+We also report the effects of different video preprocessing strategies and ablations.
+Our findings highlight the improved performance and generalizability of the adapted foundation models for automated scratching behavior analysis and shed light on the real-world deployment of such detectors. 
 
 ### 🔨  Scope and Use
 Each model has its own folder. The binary label convention is
@@ -55,6 +55,7 @@ Configuration means reconcile with manuscript Table II. See the
 
 
 ### 🤝 Acknowledgements
+We thank the laboratories of Drs. Xingzhong Dong, David Ginty, and Xintong Dong for their support and assistance with video recording for external validation. 
 This work was supported in part by seed funding from the PSOM AI2D Center at Penn (L.S.) and  NIH grant R01-NS-131209 (W.L.).
 
 
